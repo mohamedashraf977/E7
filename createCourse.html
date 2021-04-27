@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<body style="  max-width: 500px;
+  margin: auto;">
+
+<html>
+
+    <head>
+        <title>
+            Create course
+        </title>
+    </head>
+
+    <body>
+        <h1 style="font-size:50px;">Course Creation page</h1>
+        <br>
+        <form action="/api/courses/create" method="post">
+            <label style="font-size:30px;"> Course Name</label>
+            <br>
+            <input type="text" id="coursename" name="coursename">
+            <br><br>
+            <label style="font-size:30px;">Course Code</label>
+            <br>
+            <input type="text" id="coursecode" name="coursecode">
+            <br><br>
+            <label style="font-size:30px;">Course Description</label>
+            <br>
+            <textarea name="coursedescription" id="" cols="50" rows="20"></textarea>
+            <br><br>
+            <input style="font-size:40px;"type="submit" value="Create course">
+        </form>
+    </body>
+
+
+</html>
